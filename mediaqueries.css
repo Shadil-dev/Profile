@@ -43,8 +43,8 @@
     }
     
     .section__pic_container{
-        height: 275px;
-        width:275px;
+        height: 175px;
+        width:175px;
         margin: 0 auto 2rem;
     }
 
@@ -90,5 +90,19 @@
 
     .contact-container p, .footer-links-container li a{
         font-size: 1rem;
+    }
+
+    .experience-subtitle{
+        font-size:1.25rem;
+    }
+
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
     }
 }
