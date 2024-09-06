@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px){
     #profile{
-        height: 83vh;
-        margin-bottom: 6rem;
+        height: auto;
+        margin-bottom: 2rem;
     }
     .about-container{
         flex-wrap: wrap;
@@ -10,7 +10,7 @@
 
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 900px){
     #desktop-nav{
         display:none;
     }
@@ -35,22 +35,33 @@
     }
 
     section, .section-container{
-        height: fit-content;
+        height: auto;
     }
 
     section{
         margin: 0 5%;
     }
     
-    .section__pic_container{
-        height: 175px;
-        width:100vw;
-        margin: 0 auto 2rem;
-    }
 
     .about-container{
         margin-top:0;
     }
+
+    .section__pic-container{
+        height:56vw;
+        width:auto;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .section__pic-container-2{
+        height:76vw;
+        width: auto;
+        justify-content: center;
+        margin: 0rem;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
