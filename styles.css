@@ -115,7 +115,7 @@ a{
 
 .hamburger-icon span{
     width: 100%;
-    background-color: black;
+    background-color: white;
     height: 2px;
     transition: all 0.3 ease-in-out;
 
